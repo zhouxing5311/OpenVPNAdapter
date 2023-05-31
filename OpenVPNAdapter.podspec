@@ -45,6 +45,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.prefix_header_file = false
+  s.static_framework = true
 
   adapter_path = "Sources/OpenVPNAdapter"
   asio_path = "Sources/ASIO"
